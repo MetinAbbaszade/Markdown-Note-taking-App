@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "markdown-note-taking-app"
+version = "0.1.0"
+description = ""
+authors = ["Metin100 <9455@holbertonstudents.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.115.6"}
+language-tool-python = "^2.8.1"
+setuptools = "^75.6.0"
+markdown = "^3.7"
+aiofiles = "^24.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
